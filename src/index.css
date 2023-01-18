@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(136, 231, 215);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.search-emoji{
+  height: 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  width: 18rem;
+  border: none;
+  font-size: 110%;
+  margin-top: 2rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.search-emoji:focus{
+  outline: none;
+}
+.emoji-res{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.emoji-body{
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  border: 2px solid yellow;
+  border-radius: 25px;
+  color: white;
+  font-size: 110%;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
